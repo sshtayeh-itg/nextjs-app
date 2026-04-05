@@ -1,4 +1,7 @@
 const Category = () => {
+    console.log("Category");
+    console.log("Category");
+    console.log("Category");
     return (
         <div>
             <h1>Category</h1>
