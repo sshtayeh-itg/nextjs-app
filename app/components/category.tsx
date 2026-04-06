@@ -3,7 +3,6 @@ const Category = () => {
     console.log("Category");
     console.log("Category");
     console.log("Category");
-    console.log("Category");
 
     debugger;
     return (
