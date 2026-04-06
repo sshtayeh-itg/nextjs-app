@@ -1,8 +1,6 @@
 const Category = () => {
     console.log("Category 1");
     console.log("Category 2");
-    console.log("Category 3");
-    console.log("Category 4");
 
     debugger;
     // TODO: Remove logs and debugger
