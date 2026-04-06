@@ -5,6 +5,7 @@ const Category = () => {
     console.log("Category");
 
     debugger;
+    // TODO: Remove logs and debugger
     return (
         <div>
             <h1>Category</h1>
