@@ -1,6 +1,17 @@
 import Image from "next/image";
 
 export default function Home() {
+  console.log("NextJs App");
+  debugger
+  const name = "John";
+  const age = 20;
+  const city = "New York";
+  const country = "USA";
+  const email = "john@example.com";
+  const phone = "1234567890";
+  const address = "123 Main St, Anytown, USA";
+  const zip = "12345";
+  const state = "NY";
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
