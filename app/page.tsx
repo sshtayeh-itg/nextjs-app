@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Header from "./components/header";
+import Products from "./components/products";
 
 export default function Home() {
   console.log("NextJs App");
@@ -33,6 +34,7 @@ export default function Home() {
           height={20}
           priority
         />
+        <Products />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
             To get started, edit the page.tsx file.
