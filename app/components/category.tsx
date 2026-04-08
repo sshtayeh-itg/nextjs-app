@@ -34,6 +34,8 @@ const Category = () => {
     };
   }, []);
 
+  debugger
+
   return (
     <div>
       <h1>Category</h1>
@@ -57,6 +59,14 @@ const Category = () => {
           ))}
         </ul>
       )}
+
+      <div>
+      <ul>
+      {products.map((product) => (
+        <li onClick={() => console.log(product)}>{product.category}</li>
+      ))}
+    </ul>
+      </div>
 
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
