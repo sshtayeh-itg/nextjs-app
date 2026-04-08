@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless headphones",
+    "price": 79.99,
+    "description": "Noise-cancelling over-ear headphones with 30-hour battery.",
+    "category": "audio"
+  },
+  {
+    "id": 2,
+    "title": "Mechanical keyboard",
+    "price": 129.5,
+    "description": "Compact layout with hot-swappable switches.",
+    "category": "peripherals"
+  },
+  {
+    "id": 3,
+    "title": "USB-C hub",
+    "price": 45,
+    "description": "Seven ports including HDMI and SD card reader.",
+    "category": "accessories"
+  }
+]

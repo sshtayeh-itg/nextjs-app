@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Cart from "./cart";
 
 const Header = () => {
     const [data, setData] = useState([]); // store JSON array
@@ -30,7 +31,7 @@ const Header = () => {
   return (
     <header>
       <h1>Header</h1>
-
+      <Cart />
     </header>
   );
 };
