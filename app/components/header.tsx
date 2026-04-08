@@ -7,6 +7,7 @@ const Header = () => {
     const str = "Hello World";
   }, []);
 
+    const fruits = ['apple', 'banana', 'grapes']
 
   if (loading) return <p>Loading...</p>;
 
