@@ -58,6 +58,15 @@ const Category = () => {
         </ul>
       )}
 
+      <div>
+      <ul>
+      {/* ISSUE: Missing 'key' prop in list mapping */}
+      {products.map((product) => (
+        <li onClick={() => console.log(product)}>{product.category}</li>
+      ))}
+    </ul>
+      </div>
+
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
