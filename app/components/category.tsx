@@ -4,6 +4,8 @@ const Category = () => {
     console.log("Category 2");
 
     const cars = ["VW", "Volvo", "BMW"];
+    const cars2 = ["Saab", "Volvo", "BMW"];
+
 
 
     debugger;
