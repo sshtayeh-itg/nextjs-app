@@ -1,3 +1,5 @@
+import {Axios} from 'axios'
+
 const Category = () => {
     console.log("Category 1");
     console.log("Category 2");
