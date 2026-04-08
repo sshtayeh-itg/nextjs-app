@@ -9,6 +9,7 @@ const Header = () => {
 
     debugger;
     const fruits = ['apple', 'banana', 'grapes']
+    const fruits2 = ['apple', 'banana', 'grapes']
 
   if (loading) return <p>Loading...</p>;
 
